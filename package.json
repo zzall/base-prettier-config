@@ -1,6 +1,6 @@
 {
 	"name": "base-prettier-config",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"description": "Base Prettier config that suitable for multiple scenarios",
 	"main": "index.json",
 	"scripts": {
@@ -14,7 +14,15 @@
 		"base-prettier",
 		"base-format-style"
 	],
-	"author": "zzall <1809642355@qq.com>",
+	"funding": {
+		"type": "individual",
+		"url": "https://zzall.github.io/#/fund"
+	},
+	"author": {
+		"name": "zzall",
+		"email": "1809642355@qq.com",
+		"url": "https://github.com/zzall"
+	},
 	"license": "MIT",
 	"devDependencies": {
 		"cimi": "^1.1.40"
