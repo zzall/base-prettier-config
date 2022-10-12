@@ -1,0 +1,22 @@
+{
+	"name": "base-prettier-config",
+	"version": "1.0.1",
+	"description": "Base Prettier config that suitable for multiple scenarios",
+	"main": "index.json",
+	"scripts": {
+		"publish:cimi": "cimi manual"
+	},
+	"keywords": [
+		"prettier",
+		"prettier-config",
+		"format-style",
+		"format",
+		"base-prettier",
+		"base-format-style"
+	],
+	"author": "zzall <1809642355@qq.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"cimi": "^1.1.40"
+	}
+}
