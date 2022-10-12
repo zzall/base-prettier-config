@@ -1,6 +1,6 @@
 # `base-prettier-config`
 
-> My personal [Prettier](https://prettier.io) config.
+> Base [Prettier](https://prettier.io) config that suitable for multiple scenarios.
 
 ## Usage
 
@@ -21,7 +21,7 @@ $ yarn add --dev base-prettier-config
 
 or
 
-** Add `require('base-prettier-config')` at .prettierrc.js**:
+**Add `require('base-prettier-config')` at .prettierrc.js**:
 
 ```javascript
 module.exports = {
