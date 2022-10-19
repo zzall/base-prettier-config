@@ -1,30 +1,30 @@
 {
-	"name": "base-prettier-config",
-	"version": "1.1.5",
-	"description": "Base Prettier config that suitable for multiple scenarios",
-	"main": "index.json",
-	"scripts": {
-		"publish:cimi": "cimi manual"
-	},
-	"keywords": [
-		"prettier",
-		"prettier-config",
-		"format-style",
-		"format",
-		"base-prettier",
-		"base-format-style"
-	],
-	"funding": {
-		"type": "individual",
-		"url": "https://zzall.github.io/#/fund"
-	},
-	"author": {
-		"name": "zzall",
-		"email": "1809642355@qq.com",
-		"url": "https://github.com/zzall"
-	},
-	"license": "MIT",
-	"devDependencies": {
-		"cimi": "^1.2.0"
-	}
+  "name": "base-prettier-config",
+  "version": "1.1.6",
+  "description": "Base Prettier config that suitable for multiple scenarios",
+  "main": "index.json",
+  "scripts": {
+    "publish:cimi": "cimi manual"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "format-style",
+    "format",
+    "base-prettier",
+    "base-format-style"
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://zzall.github.io/#/fund"
+  },
+  "author": {
+    "name": "zzall",
+    "email": "1809642355@qq.com",
+    "url": "https://github.com/zzall"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cimi": "^1.2.0"
+  }
 }
