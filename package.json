@@ -1,6 +1,6 @@
 {
   "name": "base-prettier-config",
-  "version": "1.1.6",
+  "version": "1.2.6",
   "description": "Base Prettier config that suitable for multiple scenarios",
   "main": "index.json",
   "scripts": {
