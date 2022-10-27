@@ -14,5 +14,26 @@
   "tabWidth": 2,
   "useTabs": false,
   "insertPragma": false,
-  "htmlWhitespaceSensitivity": "css"
+  "htmlWhitespaceSensitivity": "css",
+  "vueIndentScriptAndStyle": false,
+  "overrides": [
+    {
+      "files": ["*.wxss", "*.acss"],
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.ejs",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
 }

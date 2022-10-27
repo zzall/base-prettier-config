@@ -14,8 +14,8 @@ $ yarn add --dev base-prettier-config
 
 ```jsonc
 {
-	// ...
-	"prettier": "base-prettier-config"
+  // ...
+  "prettier": "base-prettier-config"
 }
 ```
 
@@ -25,8 +25,55 @@ or
 
 ```javascript
 module.exports = {
-	...require("base-prettier-config"),
-	semi: false,
-	// Your prettier config
+  ...require("base-prettier-config"),
+  // Your prettier config
+  semi: false,
+  // ...
 };
 ```
+
+## Default Config
+
+```json
+{
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "endOfLine": "lf",
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "semi": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "insertPragma": false,
+  "htmlWhitespaceSensitivity": "css",
+  "vueIndentScriptAndStyle": false,
+  "overrides": [
+    {
+      "files": ["*.wxss", "*.acss"],
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": "*.ejs",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}
+```
+
+You can make appropriate `Config` adjustments according to your own conditions
