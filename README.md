@@ -4,10 +4,22 @@
 
 ## Usage
 
+**Install With Cli**
+
+```bash
+yarn add --dev prettier base-prettier-config
+echo "module.exports = {
+  ...require('base-prettier-config'),
+  // Your prettier config
+  semi: false,
+  // ...
+};" >> .prettierrc.js
+```
+
 **Install**:
 
 ```bash
-$ yarn add --dev base-prettier-config
+$ yarn add --dev prettier base-prettier-config
 ```
 
 **Edit `package.json`**:
@@ -25,7 +37,7 @@ or
 
 ```javascript
 module.exports = {
-  ...require("base-prettier-config"),
+  ...require('base-prettier-config'),
   // Your prettier config
   semi: false,
   // ...
@@ -43,7 +55,8 @@ module.exports = {
   "arrowParens": "avoid",
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
-  "jsxSingleQuote": false,
+  "bracketSameLine": false,
+  "jsxSingleQuote": true,
   "printWidth": 120,
   "proseWrap": "preserve",
   "quoteProps": "as-needed",
